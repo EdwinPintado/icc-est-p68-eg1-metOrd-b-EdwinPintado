@@ -10,8 +10,19 @@ public class MovieController {
      * 
      * @param movies Arreglo de películas a ordenar
      */
-    public void sortByTitle(Movie[] movies) {
 
+     /// 
+
+     //Insercion
+    public void sortByTitle(Movie[] movies) {
+        for(int i = 0; i < movies.length; i++ ){
+            int pos = i;
+            Movie aux = movies[i];
+            while((pos > 0) && (movies[pos + 1].getTitle().compareTo(aux.getTitle())>0)){
+                
+            }
+            
+        }      
     }
 
 }
